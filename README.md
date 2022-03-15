@@ -5,7 +5,9 @@ This is an assignment about an order backend system that allows users to order p
 ## Starting the project
 
 To run the project, you must [clone the project first](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)
-You must also have [SQL Server](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server?view=sql-server-ver15) in your local machine and [retore the backup file](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/quickstart-backup-restore-database?view=sql-server-ver15#restore-a-backup)
+
+You must also have [SQL Server](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server?view=sql-server-ver15) in your local machine and [restore the backup file](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/quickstart-backup-restore-database?view=sql-server-ver15#restore-a-backup)
+
 Then, you can "go run ." in the Terminal to start the project.
 
 ```console
