@@ -16,6 +16,7 @@ go run .
 
 [go-mssqldb](github.com/denisenkom/go-mssqldb): to connect to SQL Server
 [gorilla/mux](): to create APIs and handle requests
+[golang-jwt/jwt](github.com/golang-jwt/jwt): to create jwt
 [gorilla/sessions](github.com/gorilla/sessions): to handle sessions
 [stretchr/testify](github.com/stretchr/testify): to create test
 [go-sqlmock](github.com/DATA-DOG/go-sqlmock): to mock db for testing

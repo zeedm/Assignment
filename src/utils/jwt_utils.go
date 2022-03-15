@@ -3,7 +3,7 @@ package utils
 import (
 	"time"
 
-	"github.com/dgrijalva/jwt-go"
+	"github.com/golang-jwt/jwt"
 )
 
 func GenerateJWT(email, isVendor string, id int64) (string, error) {
