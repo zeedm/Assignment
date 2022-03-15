@@ -18,6 +18,8 @@ func InitializeRoute() {
 	subRouter.HandleFunc("/products/addProductToCart", controllers.AddProductToSessionCart).Methods(http.MethodPost)
 	subRouter.HandleFunc("/products/viewCart", controllers.ViewCart).Methods(http.MethodGet)
 	subRouter.HandleFunc("/checkout", controllers.Checkout).Methods(http.MethodGet)
+	subRouter.HandleFunc("/inventorys", controllers.GetInventorys).Methods(http.MethodGet)
+	subRouter.HandleFunc("/inventorys/addInventory", controllers.AddInventory).Methods(http.MethodPost)
 
 	log.Fatal(http.ListenAndServe(":8080", myRouter))
 }
